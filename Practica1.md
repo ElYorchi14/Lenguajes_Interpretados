@@ -6,7 +6,7 @@ Nombre: Jorge Alberto Palacios Burguete
 
 Edad: 23 años 
 
-![Este soy yo](https://scontent.fmex23-1.fna.fbcdn.net/v/t39.30808-6/265195754_196891529307131_2723925739100990585_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeHe0tNofgE-0ykeAj0VLjcpx8h-wQCrrezHyH7BAKut7OP5pysD4i6elKGKSQTvE0nnRjk1BjuHeiODd9ko7YFj&_nc_ohc=60JMeIraZ_AAX_OPg4U&_nc_ht=scontent.fmex23-1.fna&oh=00_AfCS1qz3k8pY80fkkpPGeZgSnzIqbcYINzfHG_p8nZQcUQ&oe=65D9C69D)
+![Este soy yo](./img/FB_IMG_1693518947504.jpg)
 
 ## Este soy yo.
 >Hola, mi nombre es Jorge Alberto Palacios Burguete, mis amigos me dicen "Yorchi". Tengo 23 años y soy originario de Tuxtla Gutiérrez, Chiapas. Desde hace un año, resido en la Ciudad de México, donde actualmente estoy cursando mis estudios en Amerike.
