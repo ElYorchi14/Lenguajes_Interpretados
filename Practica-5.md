@@ -3,11 +3,11 @@
 
 #### ¿Qué es Markdown?
 
->Es un lenguaje de programación de texto que te permite dar formato y odenar información de manera sencilla.
+>Es un lenguaje que te permite dar formato y odenar información de manera sencilla.
 
 #### ¿Para que sirve Markdown?
 
->Para dar formato a lo que sea que querramos escribir.
+>Para dar formato, poner vinculos, imagenes, todo esto a base de texto de una manera simplificada.
 
 #### ¿Qué es la terminal de comandos?
 
