@@ -13,20 +13,27 @@
   <link rel="stylesheet" href="css/intro-css.css">
 </head>
 
+
 <body>
   <h1 id="inicio">Introducción a <i>HTML</i></h1>
   <p>Hola mundo desde HTML</p>
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non pulvinar neque laoreet suspendisse interdum consectetur libero. Ac tortor vitae purus faucibus. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Scelerisque purus semper eget duis. Enim ut sem viverra aliquet eget sit. Nisi est sit amet facilisis magna etiam tempor orci eu. Tellus rutrum tellus pellentesque eu tincidunt tortor. In hac habitasse platea dictumst quisque sagittis. Sed risus pretium quam vulputate dignissim suspendisse in. Consequat semper viverra nam libero justo laoreet. Tincidunt eget nullam non nisi. Dolor morbi non arcu risus. Tincidunt dui ut ornare lectus sit amet est placerat in. Elit at imperdiet dui accumsan sit amet nulla facilisi.
   </p>
-  <ul>
-    <li><a href="#encabezados">Encabezados</a></li> <!-- Enlaces locales con los encabezados -->
-    <li><a href="#etiquetas-texto">Etiquetas de Texto</a></li>
-    <li><a href="#listas">Listas</a></li>
-    <li><a href="#tablas">Tablas</a></li>
-    <li><a href="#enlaces">Enlaces</a></li>
-    <li><a href="#imagenes">Imagenes</a></li>
-  </ul>
+  <nav>
+    <ul>
+      <li><a href="#encabezados">Encabezados</a></li> <!-- Enlaces locales con los encabezados -->
+      <li><a href="#etiquetas-texto">Etiquetas de Texto</a></li>
+      <li><a href="#listas">Listas</a></li>
+      <li><a href="#tablas">Tablas</a></li>
+      <li><a href="#enlaces">Enlaces</a></li>
+      <li><a href="#imagenes">Imagenes</a></li>
+      <li><a href="#audio-video">Audio y Video</a></li>
+      <li><a href="#iframe">Iframe</a></li>
+      <li><a href="#etiquetas-semanticas">Etiquetas Semanticas</a></li>
+      <li><a href="#detalles">Detalles</a></li>
+    </ul>
+  </nav>
   <hr /> <!-- Genera una linea horizontal para dividir la página -->
 
   <!-- Esto es un comentario -->
@@ -34,144 +41,224 @@
   <p>
     En este documento iremos revisando todas las etiquetas más utilizadas en desarrollo Web.
   </p>
-  <h2 id="encabezados">Encabezados</h2>
-  <p>
-    HTML tiene varios niveles de encabezado que nos sirven para dar jerarquia a las secciones de la página
-  </p>
-  <!-- La siguiente etiqueta es para encabezados y sus diferentes niveles -->
-  <h1>Encabezado de nivel 1</h1>
-  <h2>Encabezado de nivel 2</h2>
-  <h3>Encabezado de nivel 3</h3>
-  <h4>Encabezado de nivel 4</h4>
-  <h5>Encabezado de nivel 5</h5>
-  <h6>Encabezado de nivel 6</h6>
-  <a href="#inicio">Regresar al inicio 👆</a>
-  <hr />
+  <section>
 
-  <h2 id="etiquetas-texto">Etiquetas de Texto</h2>
-  <p>Este grupo de etiquetas nos permiten dar formato a nuestro texto</p>
-  <p>
-    <!-- Aquí vamos a poner varias etiquetas para la edición de un texto -->
-    <b>Este texto está en negritas</b>
-    <br /><!-- "br" sirve para un salto de linea -->
-    <i>Este texto está en cursiva</i>.
-    <br />
-    <b><i>Este texto está en negritas y en cursivas</i></b>
-    <br />
-    <mark>Este texto está remarcado</mark>
-    <br />
-    <u>Este texto está subrayado</u>
-    <br />
-    <small>Este texto está en letras pequeñas</small>
-  </p>
-  <p>
-    La formula del agua es H<sub>2</sub>O.<!-- Genera un subíndice -->
-  </p>
-  <p>
-    La formula de la relaticidad es introducida por Einstein es e=mc<sup>2</sup><!-- Genera el cuadrado ese jaja -->
-  </p>
-  <blockquote>
-    "Yo solo sé que no sé nada"
-    <br />
-    <cite>Sócrates</cite>
-  </blockquote>
-  <a href="#inicio">Regresar al inicio 👆</a>
+    <h2 id="encabezados">Encabezados</h2>
+    <p>
+      HTML tiene varios niveles de encabezado que nos sirven para dar jerarquia a las secciones de la página
+    </p>
+    <!-- La siguiente etiqueta es para encabezados y sus diferentes niveles -->
+    <h1>Encabezado de nivel 1</h1>
+    <h2>Encabezado de nivel 2</h2>
+    <h3>Encabezado de nivel 3</h3>
+    <h4>Encabezado de nivel 4</h4>
+    <h5>Encabezado de nivel 5</h5>
+    <h6>Encabezado de nivel 6</h6>
+    <a href="#inicio">Regresar al inicio 👆</a>
+    <hr />
+    
+    <h2 id="etiquetas-texto">Etiquetas de Texto</h2>
+    <p>Este grupo de etiquetas nos permiten dar formato a nuestro texto</p>
+    <p>
+      <!-- Aquí vamos a poner varias etiquetas para la edición de un texto -->
+      <b>Este texto está en negritas</b>
+      <br /><!-- "br" sirve para un salto de linea -->
+      <i>Este texto está en cursiva</i>.
+      <br />
+      <b><i>Este texto está en negritas y en cursivas</i></b>
+      <br />
+      <mark>Este texto está remarcado</mark>
+      <br />
+      <u>Este texto está subrayado</u>
+      <br />
+      <small>Este texto está en letras pequeñas</small>
+    </p>
+    <p>
+      La formula del agua es H<sub>2</sub>O.<!-- Genera un subíndice -->
+    </p>
+    <p>
+      La formula de la relaticidad es introducida por Einstein es e=mc<sup>2</sup><!-- Genera el cuadrado ese jaja -->
+    </p>
+    <blockquote>
+      "Yo solo sé que no sé nada"
+      <br />
+      <cite>Sócrates</cite>
+    </blockquote>
+    <a href="#inicio">Regresar al inicio 👆</a>
+  </section>
   <hr /> 
+  <section>
 
-  <h2 id="listas">Listas</h2>
-  <p>En HTML tenemos dos tipos de listas</p>
-
-  <h3>Listas Desordenadas</h3>
-  <ul>
-    <li>Primavera</li>
-    <li>Verano</li>
-    <li>Otoño</li>
-    <li>Invierno</li>
-  </ul>
-  <h3>Listas Ordenadas</h3>
-  <ol>
-  <!-- <ol type="A"></ol> --> <!-- Sirve para cambiar el estilo del orden de la lista -->
-  <!-- <ol start="100"> --> <!-- Este te permite enpezar en donde tu prefieras -->
-  <!-- <ol reversed> --> <!-- Este te permite hacer una lista descendente -->
-    <li>Primavera</li>
-    <li>Verano</li>
-    <li>Otoño</li>
-    <li>Invierno</li>
-  </ol>
-  <h3>Listas Anidadas</h3>
-  <ul>
-    <li>
-      Primavera
-      <ol>
-        <li>Abril</li>
-        <li>Mayo</li>
+    <h2 id="listas">Listas</h2>
+    <p>En HTML tenemos dos tipos de listas</p>
+    
+    <h3>Listas Desordenadas</h3>
+    <ul>
+      <li>Primavera</li>
+      <li>Verano</li>
+      <li>Otoño</li>
+      <li>Invierno</li>
+    </ul>
+    <h3>Listas Ordenadas</h3>
+    <ol>
+      <!-- <ol type="A"></ol> --> <!-- Sirve para cambiar el estilo del orden de la lista -->
+      <!-- <ol start="100"> --> <!-- Este te permite enpezar en donde tu prefieras -->
+        <!-- <ol reversed> --> <!-- Este te permite hacer una lista descendente -->
+          <li>Primavera</li>
+          <li>Verano</li>
+          <li>Otoño</li>
+          <li>Invierno</li>
+        </ol>
+        <h3>Listas Anidadas</h3>
         <ul>
-          <li>Día de las madres</li>
-          <li>Día del trabajo</li>
-          <li>Día del maestro</li>
-        </ul> 
-        <li>Junio</li>
-      </ol>
-    </li>
-    <li>
-      Verano
-      <ol>
-        <li>Julio</li>
-        <li>Agosto</li>
-        <li>Septiembre</li>
-      </ol>
-    </li>
-  </ul>
-  <a href="#inicio">Regresar al inicio 👆</a>
+          <li>
+            Primavera
+            <ol>
+              <li>Abril</li>
+              <li>Mayo</li>
+              <ul>
+                <li>Día de las madres</li>
+                <li>Día del trabajo</li>
+                <li>Día del maestro</li>
+              </ul> 
+              <li>Junio</li>
+            </ol>
+          </li>
+          <li>
+            Verano
+            <ol>
+              <li>Julio</li>
+              <li>Agosto</li>
+              <li>Septiembre</li>
+            </ol>
+          </li>
+        </ul>
+        <a href="#inicio">Regresar al inicio 👆</a>
+        <hr />
+        
+        <h2 id="tablas">Tablas</h2>
+        <table border="1">
+          <tr><!-- table row, sirve para crear filas en una tabla -->
+            <th>Ciudad</th><!-- table heading le da estilo de negrita a texto y se vea como titulo, solo se hace en la primer fila -->
+            <th>País</th>
+            <th>Continente</th>
+          </tr>
+          <tr>
+            <td>CDMX</td><!-- table data, es para rellenar la tabla -->
+            <td>México</td>
+            <td>America</td>
+          </tr>
+          <tr>
+            <td>París</td>
+            <td>Francia</td>
+            <td>Europa</td>
+          </tr>
+          <tr>
+            <td>Tokyo</td>
+            <td>Japón</td>
+            <td>Asia</td>
+          </tr>
+        </table>
+        <a href="#inicio">Regresar al inicio 👆</a>
+  </section>
   <hr />
-
-  <h2 id="tablas">Tablas</h2>
-  <table border="1">
-    <tr><!-- table row, sirve para crear filas en una tabla -->
-      <th>Ciudad</th><!-- table heading le da estilo de negrita a texto y se vea como titulo, solo se hace en la primer fila -->
-      <th>País</th>
-      <th>Continente</th>
-    </tr>
-    <tr>
-      <td>CDMX</td><!-- table data, es para rellenar la tabla -->
-      <td>México</td>
-      <td>America</td>
-    </tr>
-    <tr>
-      <td>París</td>
-      <td>Francia</td>
-      <td>Europa</td>
-    </tr>
-    <tr>
-      <td>Tokyo</td>
-      <td>Japón</td>
-      <td>Asia</td>
-    </tr>
-  </table>
+  <section>
+    <h2 id="enlaces">Enlaces</h2>
+    <a href="otro.html">Ir a otro documento</a> <!-- Anchor te permite poner enlaces a otro documento -->
+    <br />
+    <a href="https://www.youtube.com/@VALORANTEsportsEMEA" target ="_blank">Canal de youtube</a><!-- Este te permite abrir el enlace en otra pestaña -->
+    <br />
+    <a href="mailto:jorgealberto140101@hotmail.com">jorgealberto140101@hotmail.com</a> <!-- Este lo manda a su email y pone tu correo en su bandeja para que te mande un correo -->
+    <br />
+    <a href="tel:5519283819">55129381233</a> <!-- Para el celular, te manda al marcado del numero -->
+    <br />
+    <a href="#inicio">Regresar al inicio 👆</a>
+  </section>
+  <hr/>
+  <section>
+    <h2 id="imagenes">Imagenes</h2>
+    
+    <img src="img/dummies.jpg" alt="HTML para tontos">
+    <br />
+    <img src="img/control.png" alt="Icono de Control">
+    <br />
+    <img src="img/gato.gif" alt="Gato feliz"> <img src="img/angry-cat.gif" alt="gato molesto"> <img src="img/sus.gif" alt="sus">
+    <img src="img/mapache.webp" alt="Mapache saludando">
+  </section>
+  <hr/>
+  <section>
+    <h2 id = "audio-video">Audio y Video</h2>
+    
+    <audio src="Media/dark-future-logo-196217.mp3" controls preload></audio> <!-- Etiqueta para poner audio "controls" pone los controles visibles y que sea más fácil de manejar -->
+    <br/>
+    <video src="media/Енот Педро ,raccoon Pedro.mp4" controls preload poster="img/mapache.webp"></video><!-- Esta etiqueta funciona igual que la de audio pero para video "Preload" carga el contenido aunque no se le presione nada y "Poster" es la miniatura antes de darle play -->
+    <br/>
+    <a href="#inicio">Regresar al inicio 👆</a>
+  </section>
+  <hr>
+  <section>
+    <h2 id="iframe">Iframe</h2>
+    <iframe 
+    width="100%"
+    height="600"
+    src="Media/LaTeX1.pdf"
+    frameborder="0">
+  </iframe> <!-- El iframe te permite agregar documentos o videos dentro de la página si necesidad de descargarlo o abrirlo en otra página -->
+  <br/>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Thh5kuFpQLM?si=JRiPBRQrx8ypsNrC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <br/>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.9229292716977!2d-99.15853872389809!3d19.372489542596178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffd308467cef%3A0xf73c3cbd6aa9bf6!2sParque%20Francisco%20Villa%20(Parque%20de%20los%20Venados)!5e0!3m2!1ses!2smx!4v1713283209858!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <br/>
   <a href="#inicio">Regresar al inicio 👆</a>
-  <hr />
-
-  <h2 id="enlaces">Enlaces</h2>
-  <a href="otro.html">Ir a otro documento</a> <!-- Anchor te permite poner enlaces a otro documento -->
-  <br />
-  <a href="https://www.youtube.com/@VALORANTEsportsEMEA" target ="_blank">Canal de youtube</a><!-- Este te permite abrir el enlace en otra pestaña -->
-  <br />
-  <a href="mailto:jorgealberto140101@hotmail.com">jorgealberto140101@hotmail.com</a> <!-- Este lo manda a su email y pone tu correo en su bandeja para que te mande un correo -->
-  <br />
-  <a href="tel:5519283819">55129381233</a> <!-- Para el celular, te manda al marcado del numero -->
-  <br />
-  <a href="#inicio">Regresar al inicio 👆</a>
-
-  <h2 id="imagenes">Imagenes</h2>
-
-  <img src="img/dummies.jpg" alt="HTML para tontos">
-  <br />
-  <img src="img/control.png" alt="Icono de Control">
-  <br />
-  <img src="img/gato.gif" alt="Gato feliz"> <img src="img/angry-cat.gif" alt="gato molesto"> <img src="img/sus.gif" alt="sus">
-  <img src="img/mapache.webp" alt="Mapache saludando">
-
-
+</section>
+  <hr/>
+  <section>
+    <h2 id="etiquetas-semanticas">Etiquetas Semanticas</h2>
+    <img src="img/etiquetas_semanticas.png" alt="Etiquetas semanticas">
+    <br/>
+    <div>Esto es una div</div><!-- Es una etiqueta contenedora de bloque que no tiene semántica. -->
+    <header>Esto es un header</header><!-- Representa la cabecera del sitio o de una sección -->
+    <nav>Esto es un nav</nav><!-- Representa una navegación -->
+    <main>Esto es un main</main><!-- Define la sección de contenido principal, se recomienda que sólo exista uno por documento -->
+    <aside>Esto es un aside</aside><!-- Representa una sección de contenido complementario o secundario -->
+    <article>Esto es un article</article><!-- Representa una sección autocontenida (que por sí sola se explica o se entiende) -->
+    <section>Esto es una section</section><!-- Representa una sección de contenido genérico -->
+    <footer>Esto es un footer</footer><!-- Pié de página del sitio o de una sección -->
+    <a href="#inicio">Regresar al inicio 👆</a>
+  </section>
+  <hr/>
+  <section>
+    <h2 id="detalle">Detalle</h2>
+    <details>
+      <summary>Resumen del Detalle</summary>
+      <div>
+        <p>Contenido oculto del detalle</p>
+        <img src="img/gato.gif" alt="This is Fine" />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, quasi
+          quo! Autem, mollitia voluptate necessitatibus optio quam, nisi dolorum
+          ducimus magni unde illum perspiciatis soluta ipsa vitae fuga inventore
+          reprehenderit!
+        </p>
+      </div>
+    </details>
+    <details open>
+      <summary>Resumen del Detalle</summary>
+      <div>
+        <p>
+          Este detalle tiene el atributo <b><i>open</i></b
+          >, por lo que comienza abierto al cargar el documento.
+        </p>
+        <img src="img/sus.gif" alt="This is Fine" />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, quasi
+          quo! Autem, mollitia voluptate necessitatibus optio quam, nisi dolorum
+          ducimus magni unde illum perspiciatis soluta ipsa vitae fuga inventore
+          reprehenderit!
+        </p>
+      </div>
+    </details>
+  </section>
 
   <!-- La siguiente etiqueta es para traer un codigo de JavaScript -->
   <script src="js/intro-js.js"></script>
