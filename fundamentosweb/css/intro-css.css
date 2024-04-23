@@ -4,8 +4,135 @@ html {
   /* Color de letra */
   color: rgb(255, 255, 255);
   scroll-behavior: smooth;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
-img{
+img, video{ /* Cuando le tienes que poner la misma propiedad a dos etiquetas diferentes, se les pone una coma (",") */
   max-width: 100%;
+}
+
+#inicio{ /* Este es un identificador que funciona con los id que pusimos en el html */
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+  background-color: teal;
+  color: springgreen;
+}
+
+a{
+  color: orangered;
+  transition: all 1s ease-out;
+}
+a:hover{
+  color: blue;
+}
+
+.box{
+  border: 3px solid white;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.box-linea{
+  border: 1px solid white;
+}
+.d.block{ /* Cambia el comportamiento a un comportamiento de bloque */
+  display: block;
+}
+.d-inline{ /* Cambia el comportamiento a un comportamiento de linea */
+  display: inline;
+}
+
+#menu{
+  color:springgreen;
+  background-color: teal;
+}
+
+p{
+  color: white;
+}
+
+li { /* A todas las listas les cambia el formato */
+  /*  background-color: lavender;
+  color: deeppink;*/
+}
+
+.fs-20 { /*Todas las clases empiezan por punto. Es una clase que cuando se manda a llamr cambia el tamaño de la fuente */
+  font-size: 20;
+}
+
+.fs-16 { 
+  color: chocolate;
+}
+
+.fs-12 {
+  text-align: right;
+}
+
+.bg-pink{
+  background-color: pink;
+}
+
+.bg-orange{
+  background-color: orange;
+}
+.bg-olive{
+  background-color: olive;
+}
+
+.text-left{
+  text-align: left;
+}
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+
+.text-chocolate{
+  color: chocolate;
+}
+
+.rounded{ /* Sirve para rendondear imagenes cuadradas */
+  border-radius: 100%;
+}
+
+.sepia{ /* Esta clase aplica un filtro para las imagenes color Sepia */
+  filter:sepia(1);
+}
+
+.gray-scale{ /* Pone un filtro en escala de gris */
+  filter: grayscale(1);
+}
+
+#seta{
+  border-radius: 1rem;/* Un rem es igual al tamaño de letra root, root es HTML */
+  border: 2px solid red;
+  transition: all 1s ease-out;
+}
+#seta:hover{
+  border-radius: 2rem;
+  border: 3px solid green;
+  filter: blur(.5rem);
+  transform: rotate(360deg) scale(2) translate(200px, 100px);
+}
+
+
+.raleway-400 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway-700 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }

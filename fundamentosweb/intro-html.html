@@ -9,6 +9,9 @@
   <!-- Esta es la etiqueta para poner imagenes en el navegador(La parte de arribita) -->
   <link rel="icon" href="img/seta.png" />
   <!-- El icono del navegador idealmente es de 16 o 32 pixeles, pero puede ser más grande, hasta 512 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <!-- La siguiente etiqueta es para agregar la hoja de estilos -->
   <link rel="stylesheet" href="css/intro-css.css">
 </head>
@@ -20,7 +23,7 @@
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non pulvinar neque laoreet suspendisse interdum consectetur libero. Ac tortor vitae purus faucibus. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Scelerisque purus semper eget duis. Enim ut sem viverra aliquet eget sit. Nisi est sit amet facilisis magna etiam tempor orci eu. Tellus rutrum tellus pellentesque eu tincidunt tortor. In hac habitasse platea dictumst quisque sagittis. Sed risus pretium quam vulputate dignissim suspendisse in. Consequat semper viverra nam libero justo laoreet. Tincidunt eget nullam non nisi. Dolor morbi non arcu risus. Tincidunt dui ut ornare lectus sit amet est placerat in. Elit at imperdiet dui accumsan sit amet nulla facilisi.
   </p>
-  <nav>
+  <nav id="menu">
     <ul>
       <li><a href="#encabezados">Encabezados</a></li> <!-- Enlaces locales con los encabezados -->
       <li><a href="#etiquetas-texto">Etiquetas de Texto</a></li>
@@ -32,6 +35,7 @@
       <li><a href="#iframe">Iframe</a></li>
       <li><a href="#etiquetas-semanticas">Etiquetas Semanticas</a></li>
       <li><a href="#detalles">Detalles</a></li>
+      <li><a href="#css">Introducción a CSS</a></li>
     </ul>
   </nav>
   <hr /> <!-- Genera una linea horizontal para dividir la página -->
@@ -259,8 +263,24 @@
       </div>
     </details>
   </section>
+  <section>
+    <h2 id="css">Introducción a CSS</h2>
+    <a href="https://cssreference.io/">Referencias de CSS</a>
+    <br/>
+    <p class="fs-20 text-chocolate text-right bg-pink"> <!-- Usando las clases que hicimos en el CSS podemos cambiar el formato desde aquí -->
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia mi in mauris posuere tincidunt. Sed laoreet mi non felis viverra blandit. Ut nec tempor purus. Curabitur pulvinar odio et felis bibendum sodales. Etiam sit amet metus ac odio suscipit fermentum id ac dolor. Fusce elit elit, lobortis in nisl non, finibus rhoncus nisi. Nulla non egestas ante. Ut tempus orci et fringilla posuere. Donec eu mauris id tortor finibus convallis nec quis enim. Nulla quis interdum magna. Duis pretium tristique ipsum et laoreet.
+    </p>
+    <img id="seta" src="img/seta.png" alt="Seta">
+    <ul>
+      <h3>Modelo de caja (box model)</h3>
+      <div class="box">caja1</div>
+      <div class="box">caja2</div>
+      <div class="box">caja3</div>
+      <span class="box-linea bg-pink">caja de linea</span>
+    </ul>
+  </section>
 
-  <!-- La siguiente etiqueta es para traer un codigo de JavaScript -->
+    <!-- La siguiente etiqueta es para traer un codigo de JavaScript -->
   <script src="js/intro-js.js"></script>
   <!-- Siempre que se invoque un archivo de JavaScript es importante que se ponga hasta abajo -->
 </body>
